@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="min-h-dvh flex flex-col">
+          <div className="min-h-dvh flex flex-col bg-grid-subtle">
             <header className="sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-black/5 dark:border-white/10">
               <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2 text-primary">
@@ -46,7 +46,7 @@ export default function RootLayout({
                 <div className="flex items-center gap-2">
                   <Button asChild variant="secondary" size="sm">
                     <a
-                      href="https://github.com/your/repo"
+                      href="https://github.com/"
                       target="_blank"
                       rel="noreferrer"
                     >

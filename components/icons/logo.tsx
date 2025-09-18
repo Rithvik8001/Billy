@@ -2,8 +2,6 @@ import * as React from "react";
 
 type LogoProps = React.SVGProps<SVGSVGElement> & { className?: string };
 
-// App logomark: a simplified receipt/scanner glyph designed to read well at 20–28px.
-// Uses currentColor so it can adapt to brand color via parent text color.
 export function Logo(props: LogoProps) {
   const { className, ...rest } = props;
   return (
